@@ -77,6 +77,11 @@
       --bs-body-color: #fff;
     }
 
+    html,
+    body {
+      scroll-behavior: smooth;
+    }
+
     .text-balance {
       text-wrap: balance;
     }
@@ -84,6 +89,14 @@
     @media (min-width: 992px) {
       .rounded-lg-circle {
         border-radius: 50% !important;
+      }
+
+      .card-img {
+        transition: filter 500ms;
+      }
+
+      .card-img:hover {
+        filter: drop-shadow(0px 0px 4px white);
       }
     }
   </style>
@@ -103,7 +116,7 @@
       <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
           <a class="nav-link" href="#project-showcase">Project Showcase</a>
         </div>
       </div>
