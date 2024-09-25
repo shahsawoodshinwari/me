@@ -103,6 +103,12 @@
     .nav-link:focus-visible {
       box-shadow: 0 0 0 .25rem rgb(255 255 255 / 50%);
     }
+
+    .social-icon {
+      --size: 3rem;
+      width: var(--size, 2rem);
+      height: var(--size, 2rem);
+    }
   </style>
 
   <link rel="preload" href="./assets/images/Shah-Sawood-Full-Stack-Web-Developer-Profile-Picture.webp" as="image">
@@ -238,23 +244,20 @@
   <footer id="contact">
     <div class="container">
       <div class="text-center d-flex gap-3 justify-content-center align-items-center">
-        <a class="text-center text-decoration-none text-white" href="https://linkedin.com/in/shahsawoodshinwari">
-          <img src="./assets/social-icons/linkedin-icon.webp?v=1.0.0" class="rounded" width="22" height="22"
+        <a class="text-center position-relative rounded-circle d-flex align-items-center justify-content-center bg-white social-icon text-decoration-none text-white"
+          href="https://linkedin.com/in/shahsawoodshinwari">
+          <img src="./assets/social-icons/linkedin-icon.webp?v=1.0.0" class="" width="22" height="22"
             alt="Shah Sawood Linked Profile">
-          <br />
-          Linkedin
         </a>
-        <a class="text-center text-decoration-none text-white" href="https://github.com/shahsawoodshinwari">
-          <img src="./assets/social-icons/github.webp?v=1.0.0" class="rounded" width="22" height="22"
+        <a class="text-center position-relative rounded-circle d-flex align-items-center justify-content-center bg-white social-icon text-decoration-none text-white"
+          href="https://github.com/shahsawoodshinwari">
+          <img src="./assets/social-icons/github.webp?v=1.0.0" class="" width="22" height="22"
             alt="Shah Sawood Github Profile">
-          <br />
-          Github
         </a>
-        <a class="text-center text-decoration-none text-white" href="https://wa.me/923474938678">
+        <a class="text-center position-relative rounded-circle d-flex align-items-center justify-content-center bg-white social-icon text-decoration-none text-white"
+          href="https://wa.me/923474938678">
           <img src="./assets/social-icons/whatsapp.webp?v=1.0.0" class="rounded" width="22" height="22"
             alt="Shah Sawood Whatsapp Link">
-          <br />
-          Whatsapp
         </a>
       </div>
     </div>
